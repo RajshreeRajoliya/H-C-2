@@ -1,0 +1,125 @@
+/* mobile */
+@media (min-width:0px) and (max-width:1200px){
+    /* navbar */
+    .navbar .nav{
+        width: 100%;
+        height: 60px;
+        padding-block: 20px;
+        padding-inline: 30px;
+    }
+    .navbar .nav .n1{
+        display: none;
+    }
+    .navbar .nav .n3 #pnone{
+        display: none;
+    }
+    .navbar .nav .n3{
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .navbar .nav .n3 p{
+        font-size: 18px;
+    }
+    .navbar .nav .n3 #menu{
+        display: block;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+
+    .section3{
+        padding-inline: 10px;
+       }
+    /* navbar */
+
+
+    /* .section4 .s4box .s4card{
+        width: 48%;
+
+    }
+    .section4 .s4box #s4cnone{
+        display: none;
+    } */
+
+   
+}
+@media (min-width:0px) and (max-width:480px){
+    /* section1 */
+    
+    .section1 .sbox1{
+       width: 100%;
+       padding-inline: 20px;
+   }
+   .section1 .sbox1 .s1btn{
+       display: block;
+   }
+   .section1 .sbox1 .s1btn button{
+       width: 100%;
+       height: 50px;
+       display: block;
+       margin-top: 15px;
+   }
+   .section3{
+    padding-inline: 10px;
+    height: 200px;
+   }
+   /* section1 */
+}
+/* mobile */
+
+
+
+/* tablate */
+@media (min-width:481px) and (max-width:720px){
+    /* section1 */
+     .section1 .sbox1{
+        width: 100%;
+        padding-inline: 20px;
+    }
+    .section1 .sbox1 .s1btn{
+        display: block;
+    }
+    .section1 .sbox1 .s1btn button{
+        width: 100%;
+        height: 50px;
+        display: block;
+        margin-top: 15px;
+    }
+    /* section1 */
+}
+/* tablate */
+
+
+/* sm-laptops */
+@media (min-width:721px) and (max-width:1400px){
+    /* section1 */
+     .section1 .sbox1{
+        width: 70%;
+        padding-inline: 20px;
+    }
+    /* section1 */
+}
+/* sm-laptops */
+
+
+@media (min-width:0px) and (max-width:950px){
+    /* section1 */
+     .section1{
+        height: 600px;
+    }
+    .section4 .s4box {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section4 .s4box .s4card{
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+
+    }
+   
+    /* section1 */
+}
+
+
